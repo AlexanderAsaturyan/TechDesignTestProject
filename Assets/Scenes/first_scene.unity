@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 520482475}
   - component: {fileID: 520482476}
   m_Layer: 0
-  m_Name: AudioController
+  m_Name: bird_audio_controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -852,7 +852,7 @@ GameObject:
   - component: {fileID: 7782842531413029742}
   - component: {fileID: 7782842531413029729}
   m_Layer: 0
-  m_Name: Animation
+  m_Name: bird_animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7782842531413029740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2, y: 0.97, z: 0}
+  m_LocalPosition: {x: -3.2, y: 1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

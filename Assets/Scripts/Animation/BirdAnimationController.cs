@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class AnimationController : MonoBehaviour
+public class BirdAnimationController : MonoBehaviour
 {
     [SerializeField] private BirdController birdController;
-    [SerializeField] private AudioController audioController;
+    [SerializeField] private BirdAudioController audioController;
     [SerializeField] private BoxCollider2D boxCollider;
 
     private void OnMouseUp()

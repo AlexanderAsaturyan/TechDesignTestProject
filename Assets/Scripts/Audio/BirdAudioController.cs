@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AudioController : MonoBehaviour
+public class BirdAudioController : MonoBehaviour
 {
     [SerializeField] private AudioSource musicAudio;
     [SerializeField] private AudioSource birdVoiceAudio;
