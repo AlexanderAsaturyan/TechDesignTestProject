@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class SecondSceneTransitionController : MonoBehaviour
 {
+    [SerializeField] private Canvas canvas;
     [SerializeField] private Button button;
 
     private void Start()
@@ -14,6 +15,7 @@ public class SecondSceneTransitionController : MonoBehaviour
     private void OnMouseUp()
     {
         button.gameObject.SetActive(true);
+        canvas.gameObject.SetActive(true);
     }
 
     private void OpenFirstScene()

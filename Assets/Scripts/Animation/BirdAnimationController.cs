@@ -8,7 +8,6 @@ public class BirdAnimationController : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Debug.Log("Click detected");
         StartCoroutine(birdController.Animate());      
         audioController.PlayMusicAudio();
         audioController.PlayBirdVoiceAudio();
