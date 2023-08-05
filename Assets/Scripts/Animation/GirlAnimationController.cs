@@ -1,13 +1,17 @@
 using Assets.Scripts.Controllers;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GirlAnimationController : MonoBehaviour
 {
     [SerializeField] private GirlController girlController;
-    [SerializeField] private GirlAudioController audioController;
     [SerializeField] private BoxCollider2D boxCollider;
+    
+    private GirlAudioController audioController;
+
+    public void SetGirlAudioController(GirlAudioController audioController)
+    {
+        this.audioController = audioController;
+    }
 
     private void OnMouseUp()
     {

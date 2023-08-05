@@ -4,12 +4,18 @@ using UnityEngine.UI;
 
 public class SecondSceneTransitionController : MonoBehaviour
 {
-    [SerializeField] private Canvas canvas;
-    [SerializeField] private Button button;
+     private Canvas canvas;
+     private Button button;
 
     private void Start()
     {
         button.onClick.AddListener(OpenFirstScene);
+    }
+
+    public void SetCanvasAndButton(Canvas canvas, Button button)
+    {
+        this.canvas = canvas;
+        this.button = button;
     }
 
     private void OnMouseUp()

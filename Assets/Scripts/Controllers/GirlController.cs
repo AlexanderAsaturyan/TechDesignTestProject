@@ -8,12 +8,14 @@ namespace Assets.Scripts.Controllers
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private Sprite[] sprites;
 
+        private WaitForSeconds delay = new WaitForSeconds(0.1f);
+
         private int frame;
         public IEnumerator Animate()
         {
             while (true)
             {
-                yield return new WaitForSeconds(0.1f);
+                yield return delay;
                 frame++;
                 if (frame >= sprites.Length)
                 {
