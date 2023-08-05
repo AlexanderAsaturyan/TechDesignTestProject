@@ -20,7 +20,6 @@ public class FirstSceneTransitionController : MonoBehaviour
 
     private void OnMouseUp()
     {
-       // button.gameObject.SetActive(true);
         canvas.gameObject.SetActive(true);
     }
 
